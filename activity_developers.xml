@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aravind.quiz.Developers"
+    android:orientation="vertical"
+    android:background="@drawable/devolop"
+    >
+
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/listview"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thanks to our friends for suggestions"
+        android:textSize="16sp"
+        android:id="@+id/textView"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

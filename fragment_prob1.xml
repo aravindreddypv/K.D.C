@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/problem"
+    tools:context="com.example.aravind.quiz.prob1"
+    android:orientation="vertical">
+
+    <!-- TODO: Updarte blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/aa"
+            android:textStyle="normal"
+            android:textSize="25dp"
+            android:textColor="@android:color/black"
+            android:text="1) Which is not a Fruit?"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/radiogroup">
+            <RadioButton
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apple"
+                android:id="@+id/rb1"
+                />
+            <RadioButton
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Banana"
+                android:id="@+id/rb2"/>
+
+            <RadioButton
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coconut"
+                android:id="@+id/rb3"/>
+            <RadioButton
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Doll"
+                android:id="@+id/rb4"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+</LinearLayout>

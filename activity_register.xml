@@ -1,0 +1,132 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_marginTop="130dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginLeft="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="User name  :"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    />
+                <EditText
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/un"
+
+                    android:inputType="text"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_marginLeft="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Roll.NO        :"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    />
+                <EditText
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/rn"
+                    android:inputType="text"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_marginLeft="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Name           :"
+                    android:textSize="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    />
+                <EditText
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:inputType="text"
+                    android:id="@+id/n"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_marginLeft="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Phone no.    :"
+                    android:textSize="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    />
+                <EditText
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:inputType="number"
+                    android:id="@+id/pn"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_marginLeft="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Email-id       :"
+                    android:textSize="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    />
+                <EditText
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:inputType="textEmailAddress"
+                    android:id="@+id/ei"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:id="@+id/regi1"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center_horizontal"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

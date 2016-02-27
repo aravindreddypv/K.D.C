@@ -1,0 +1,36 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imagetitle"
+        />
+    <TextView
+        android:layout_toRightOf="@+id/imagetitle"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:textSize="20sp"
+        android:text="P.V.Aravind Reddy"
+        android:textStyle="bold"
+        android:paddingTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/title"
+
+        />
+
+    <TextView
+        android:layout_below="@+id/title"
+        android:layout_toRightOf="@id/imagetitle"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:text="backend"
+        android:layout_marginLeft="10dp"
+        android:textSize="14sp"
+        android:id="@+id/description"/>
+</RelativeLayout>
